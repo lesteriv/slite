@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="api" displayName="api" projectFiles="true">
+        <itemPath>src/api/API_backups.cpp</itemPath>
+        <itemPath>src/api/API_config.cpp</itemPath>
+        <itemPath>src/api/API_databases.cpp</itemPath>
+        <itemPath>src/api/API_logs.cpp</itemPath>
+        <itemPath>src/api/API_procedures.cpp</itemPath>
+        <itemPath>src/api/API_records.cpp</itemPath>
+        <itemPath>src/api/API_server.cpp</itemPath>
+        <itemPath>src/api/API_users.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="db" projectFiles="true">
+        <itemPath>src/db/database.cpp</itemPath>
+        <itemPath>src/db/database.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="sp" displayName="sp" projectFiles="true">
+        <itemPath>src/sp/Command.cpp</itemPath>
+        <itemPath>src/sp/Command.h</itemPath>
+        <itemPath>src/sp/Core.cpp</itemPath>
+        <itemPath>src/sp/CoreFunctions.cpp</itemPath>
+        <itemPath>src/sp/CoreFunctions.h</itemPath>
+        <itemPath>src/sp/Cursor.cpp</itemPath>
+        <itemPath>src/sp/Cursor.h</itemPath>
+        <itemPath>src/sp/Enums.h</itemPath>
+        <itemPath>src/sp/Expression.cpp</itemPath>
+        <itemPath>src/sp/Expression.h</itemPath>
+        <itemPath>src/sp/Field.h</itemPath>
+        <itemPath>src/sp/Function.cpp</itemPath>
+        <itemPath>src/sp/Function.h</itemPath>
+        <itemPath>src/sp/GlobalVariables.cpp</itemPath>
+        <itemPath>src/sp/GlobalVariables.h</itemPath>
+        <itemPath>src/sp/Loop.h</itemPath>
+        <itemPath>src/sp/Macroses.h</itemPath>
+        <itemPath>src/sp/Parser.cpp</itemPath>
+        <itemPath>src/sp/Parser.h</itemPath>
+        <itemPath>src/sp/ParserBlocks.cpp</itemPath>
+        <itemPath>src/sp/ParserCommands.cpp</itemPath>
+        <itemPath>src/sp/ParserUtil.cpp</itemPath>
+        <itemPath>src/sp/Statement.cpp</itemPath>
+        <itemPath>src/sp/Statement.h</itemPath>
+        <itemPath>src/sp/Type.h</itemPath>
+        <itemPath>src/sp/Unicode.cpp</itemPath>
+        <itemPath>src/sp/Unicode.h</itemPath>
+        <itemPath>src/sp/Utils.cpp</itemPath>
+        <itemPath>src/sp/Utils.h</itemPath>
+        <itemPath>src/sp/VMachine.cpp</itemPath>
+        <itemPath>src/sp/VMachine.h</itemPath>
+        <itemPath>src/sp/Value.cpp</itemPath>
+        <itemPath>src/sp/Value.h</itemPath>
+        <itemPath>src/sp/Variable.cpp</itemPath>
+        <itemPath>src/sp/Variable.h</itemPath>
+        <itemPath>src/sp/base.h</itemPath>
+        <itemPath>src/sp/block.h</itemPath>
+        <itemPath>src/sp/checker.cpp</itemPath>
+        <itemPath>src/sp/checker.h</itemPath>
+        <itemPath>src/sp/core.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="third" displayName="third" projectFiles="true">
+        <logicalFolder name="libcrest" displayName="libcrest" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <logicalFolder name="internal" displayName="internal" projectFiles="true">
+              <itemPath>src/third/libcrest/include/internal/cr_cache_internal.h</itemPath>
+              <itemPath>src/third/libcrest/include/internal/cr_connection_internal.h</itemPath>
+              <itemPath>src/third/libcrest/include/internal/cr_handler_register.h</itemPath>
+              <itemPath>src/third/libcrest/include/internal/cr_result_internal.h</itemPath>
+              <itemPath>src/third/libcrest/include/internal/cr_string_map_internal.h</itemPath>
+              <itemPath>src/third/libcrest/include/internal/cr_user_manager_internal.h</itemPath>
+            </logicalFolder>
+            <itemPath>src/third/libcrest/include/cr_cache.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_connection.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_macroses.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_options.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_result.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_string_map.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_types.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_user_manager.h</itemPath>
+            <itemPath>src/third/libcrest/include/cr_utils.h</itemPath>
+            <itemPath>src/third/libcrest/include/crest.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>src/third/libcrest/src/auth_basic.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/auth_basic.h</itemPath>
+            <itemPath>src/third/libcrest/src/auth_digest.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/auth_digest.h</itemPath>
+            <itemPath>src/third/libcrest/src/cr_cache.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_connection.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_json.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_json.h</itemPath>
+            <itemPath>src/third/libcrest/src/cr_result.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_string_map.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_user_manager.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_utils.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_utils_private.h</itemPath>
+            <itemPath>src/third/libcrest/src/cr_xml.cpp</itemPath>
+            <itemPath>src/third/libcrest/src/cr_xml.h</itemPath>
+            <itemPath>src/third/libcrest/src/crest.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="third" displayName="third" projectFiles="true">
+            <logicalFolder name="mongoose" displayName="mongoose" projectFiles="true">
+              <itemPath>src/third/libcrest/third/mongoose/LICENSE</itemPath>
+              <itemPath>src/third/libcrest/third/mongoose/mongoose.cpp</itemPath>
+              <itemPath>src/third/libcrest/third/mongoose/mongoose.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="zlib" displayName="zlib" projectFiles="true">
+              <itemPath>src/third/libcrest/third/zlib/README</itemPath>
+              <itemPath>src/third/libcrest/third/zlib/deflate.cpp</itemPath>
+              <itemPath>src/third/libcrest/third/zlib/deflate.h</itemPath>
+              <itemPath>src/third/libcrest/third/zlib/trees.cpp</itemPath>
+              <itemPath>src/third/libcrest/third/zlib/trees.h</itemPath>
+              <itemPath>src/third/libcrest/third/zlib/zlib.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>src/third/libcrest/README.md</itemPath>
+          <itemPath>src/third/libcrest/TODO</itemPath>
+          <itemPath>src/third/libcrest/dummy_key.pem</itemPath>
+        </logicalFolder>
+        <logicalFolder name="sqlite" displayName="sqlite" projectFiles="true">
+          <itemPath>src/third/sqlite/sqlite3.c</itemPath>
+          <itemPath>src/third/sqlite/sqlite3.h</itemPath>
+          <itemPath>src/third/sqlite/sqlite3_config.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="utils" projectFiles="true">
+        <itemPath>src/utils/config.cpp</itemPath>
+        <itemPath>src/utils/config.h</itemPath>
+        <itemPath>src/utils/time_counter.cpp</itemPath>
+        <itemPath>src/utils/time_counter.h</itemPath>
+        <itemPath>src/utils/utils.cpp</itemPath>
+        <itemPath>src/utils/utils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="www" displayName="www" projectFiles="true">
+        <logicalFolder name="admin" displayName="admin" projectFiles="true">
+          <logicalFolder name="codemirror2" displayName="codemirror2" projectFiles="true">
+            <itemPath>www/admin/codemirror2/codemirror.css</itemPath>
+            <itemPath>www/admin/codemirror2/codemirror.js</itemPath>
+            <itemPath>www/admin/codemirror2/mysql.js</itemPath>
+          </logicalFolder>
+          <logicalFolder name="images" displayName="images" projectFiles="true">
+            <itemPath>www/admin/images/add.png</itemPath>
+            <itemPath>www/admin/images/close.png</itemPath>
+            <itemPath>www/admin/images/db.png</itemPath>
+            <itemPath>www/admin/images/delete.png</itemPath>
+            <itemPath>www/admin/images/table.png</itemPath>
+          </logicalFolder>
+          <logicalFolder name="jquery" displayName="jquery" projectFiles="true">
+            <logicalFolder name="css" displayName="css" projectFiles="true">
+              <logicalFolder name="hot-sneaks" displayName="hot-sneaks" projectFiles="true">
+                <logicalFolder name="images" displayName="images" projectFiles="true">
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_454545_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_88a206_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_c02669_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_e1e463_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_ffeb33_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/hot-sneaks/images/ui-icons_ffffff_256x240.png</itemPath>
+                </logicalFolder>
+                <itemPath>www/admin/jquery/css/hot-sneaks/jquery-ui-1.8.22.custom.css</itemPath>
+              </logicalFolder>
+              <logicalFolder name="smoothness" displayName="smoothness" projectFiles="true">
+                <logicalFolder name="images" displayName="images" projectFiles="true">
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-icons_222222_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-icons_2e83ff_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-icons_454545_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-icons_888888_256x240.png</itemPath>
+                  <itemPath>www/admin/jquery/css/smoothness/images/ui-icons_cd0a0a_256x240.png</itemPath>
+                </logicalFolder>
+                <itemPath>www/admin/jquery/css/smoothness/jquery-ui-1.8.22.custom.css</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="js" displayName="js" projectFiles="true">
+              <itemPath>www/admin/jquery/js/jquery-1.8.0.min.js</itemPath>
+              <itemPath>www/admin/jquery/js/jquery-ui-1.8.22.custom.min.js</itemPath>
+              <itemPath>www/admin/jquery/js/jquery.cookie.js</itemPath>
+              <itemPath>www/admin/jquery/js/jquery.ui.tooltip.js</itemPath>
+            </logicalFolder>
+            <itemPath>www/admin/jquery/index.html</itemPath>
+          </logicalFolder>
+          <logicalFolder name="js" displayName="js" projectFiles="true">
+            <itemPath>www/admin/js/pos.js</itemPath>
+          </logicalFolder>
+          <logicalFolder name="selectit" displayName="selectit" projectFiles="true">
+            <itemPath>www/admin/selectit/jquery.selectboxit.css</itemPath>
+            <itemPath>www/admin/selectit/jquery.selectboxit.js</itemPath>
+          </logicalFolder>
+          <logicalFolder name="tablesorter" displayName="tablesorter" projectFiles="true">
+            <itemPath>www/admin/tablesorter/jquery.tablesorter.min.js</itemPath>
+            <itemPath>www/admin/tablesorter/style.css</itemPath>
+          </logicalFolder>
+          <itemPath>www/admin/index.html</itemPath>
+        </logicalFolder>
+        <itemPath>www/index.html</itemPath>
+      </logicalFolder>
+      <itemPath>TODO</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/slite.h</itemPath>
+      <itemPath>src/version.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>www</Elem>
+    <Elem>src/api</Elem>
+    <Elem>src/third/rapidxml</Elem>
+    <Elem>src/third/json</Elem>
+    <Elem>src/third/lib_json</Elem>
+    <Elem>src/third/libjson</Elem>
+    <Elem>src/third/cJSON</Elem>
+    <Elem>src/libslite</Elem>
+    <Elem>src/third/libcrest</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-Wall -Wextra -Wunused-macros -Wunused -Wunused-local-typedefs</commandLine>
+        </cTool>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <commandLine>-std=c++11 -Wall -Wextra</commandLine>
+          <warningLevel>3</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-Wl,-z,defs</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/api/API_backups.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+        </ccTool>
+      </item>
+      <item path="src/api/API_config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_databases.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_logs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_procedures.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_records.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_users.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/db/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/db/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/slite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Command.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Command.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/CoreFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/CoreFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Cursor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Cursor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Expression.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Expression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Field.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Function.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/GlobalVariables.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/GlobalVariables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Loop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Macroses.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/ParserBlocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/ParserCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/ParserUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Statement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Statement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Unicode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Unicode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/VMachine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/VMachine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Variable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Variable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/checker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/checker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/dummy_key.pem" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_cache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_macroses.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_options.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_result.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_string_map.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_user_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/crest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_cache_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_connection_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_handler_register.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_result_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_string_map_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_user_manager_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_basic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_basic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_digest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_digest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_cache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_connection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_json.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_result.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_string_map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_user_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_utils_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_xml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_xml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/crest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/LICENSE"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/mongoose.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/mongoose.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/README"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/deflate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/deflate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/trees.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/trees.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/zlib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/sqlite/sqlite3.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <warningLevel>0</warningLevel>
+        </cTool>
+      </item>
+      <item path="src/third/sqlite/sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/sqlite/sqlite3_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/time_counter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/time_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/codemirror.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/codemirror.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/mysql.js" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/add.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/close.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/db.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/delete.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/table.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_454545_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_88a206_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_c02669_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_e1e463_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_ffeb33_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_ffffff_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/jquery-ui-1.8.22.custom.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_222222_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_2e83ff_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_454545_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_888888_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_cd0a0a_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/jquery-ui-1.8.22.custom.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery-1.8.0.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery-ui-1.8.22.custom.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery.cookie.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery.ui.tooltip.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/js/pos.js" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/selectit/jquery.selectboxit.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/selectit/jquery.selectboxit.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/tablesorter/jquery.tablesorter.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/tablesorter/style.css" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <commandLine>-Ofast -flto -fno-fast-math</commandLine>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>0</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>/Paradigma/Developer_2/sources</pElem>
+          </incDir>
+          <commandLine>--std=c++11 -Ofast -flto -fno-exceptions</commandLine>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-flto -Ofast -Wl,--gc-sections</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/api/API_backups.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_databases.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_logs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_procedures.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_records.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/api/API_users.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/db/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/db/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/slite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Command.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Command.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/CoreFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/CoreFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Cursor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Cursor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Expression.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Expression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Field.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Function.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/GlobalVariables.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/GlobalVariables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Loop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Macroses.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/ParserBlocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/ParserCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/ParserUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Statement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Statement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Unicode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Unicode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/VMachine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/VMachine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/Variable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/Variable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/checker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sp/checker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sp/core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/dummy_key.pem" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_cache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_macroses.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_options.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_result.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_string_map.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_user_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/cr_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/crest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_cache_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_connection_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_handler_register.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_result_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_string_map_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/include/internal/cr_user_manager_internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_basic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_basic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_digest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/auth_digest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_cache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_connection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_json.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_result.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_string_map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_user_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_utils_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_xml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/cr_xml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/src/crest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/LICENSE"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/mongoose.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/mongoose/mongoose.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/README"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/deflate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/deflate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/trees.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/trees.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/libcrest/third/zlib/zlib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/third/sqlite/sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/third/sqlite/sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/third/sqlite/sqlite3_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/time_counter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/time_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/codemirror.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/codemirror.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/codemirror2/mysql.js" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/add.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/close.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/db.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/delete.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/images/table.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_454545_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_88a206_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_c02669_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_e1e463_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_ffeb33_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/images/ui-icons_ffffff_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/hot-sneaks/jquery-ui-1.8.22.custom.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_222222_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_2e83ff_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_454545_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_888888_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/images/ui-icons_cd0a0a_256x240.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/css/smoothness/jquery-ui-1.8.22.custom.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery-1.8.0.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery-ui-1.8.22.custom.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery.cookie.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/jquery/js/jquery.ui.tooltip.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/js/pos.js" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/admin/selectit/jquery.selectboxit.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/selectit/jquery.selectboxit.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/tablesorter/jquery.tablesorter.min.js"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="www/admin/tablesorter/style.css" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="www/index.html" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
